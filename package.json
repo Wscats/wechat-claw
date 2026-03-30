@@ -1,5 +1,13 @@
 {
   "dependencies": {
     "@tencent-weixin/openclaw-weixin-cli": "^1.0.2"
+  },
+  "scripts": {
+    "lint": "eslint src --ext .ts,.tsx,.js,.jsx --fix",
+    "test": "jest --coverage",
+    "type-check": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
